@@ -3,4 +3,6 @@
 
 import Foundation
 
-public let PI = 3.14
+public let resBundle: URL? = Bundle.module.url(forResource: "Resources", withExtension: "bundle")
+public let compass: URL? = Bundle.module.url(forResource: "compass", withExtension: "png")
+public let js: URL? = Bundle.module.url(forResource: "example", withExtension: "js")
